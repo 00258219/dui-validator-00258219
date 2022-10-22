@@ -22,9 +22,11 @@ function App() {
           onSubmit={(e) => {
             e.preventDefault()
             onSubmit()
-           } }
+          } }
         >
           <input
+            data-testid='dui-dui'
+            name='dui'
             placeholder='000000000'
             className='rounded p-2 w-full'
             value={value}
